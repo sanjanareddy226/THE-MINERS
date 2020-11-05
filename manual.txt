@@ -1,0 +1,15 @@
+Applicant- 
+Creates an account in the website and hence has credentials
+Gets an application number and time for the test
+On the day of the test,logs in, uploads the required documents into the application in the RTO
+Car is tested for various parameters which are mostly automated
+Final report is generated which gives the overview of the results
+This form can be used for future reference
+RTO officer-
+Has an account with certain credentials
+Once the applicant arrives, the live CCTV footage of the vehicle is captured and the automated tests are done.
+Further the tests which cannot be automated are done by the officer
+The final report generated is reviewed and the time stamp and digital signature of the officer is put.
+
+To run the webpage, run the app.ipynb file in the repo
+Make sure the paths of the required files(images,video,audio,weights) are mentioned correctly.
