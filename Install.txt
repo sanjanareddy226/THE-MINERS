@@ -14,5 +14,7 @@ INSTALLATION INSTRUCTIONS:
 
 
 TO RUN THE INDICATOR MODEL
-1. Provide path to the video in the argument argv
+1. Provide path to the video in the variable "file"
 
+TO RUN THE HORM MODEL
+1. Provide the path to the audio file in the variable "file"
