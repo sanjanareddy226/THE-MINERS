@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vehicle Fitness Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <style>
+        #sig-canvas {
+  border: 2px dotted #CCCCCC;
+  border-radius: 15px;
+  cursor: crosshair;
+}
+      html, body {
+      height: 100%;
+      }
+      body, h1, h3, input { 
+      padding: 0;
+      margin: 0;
+      outline: none;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 16px;
+      color: #666;
+      }
+      h1, h3 {
+      padding: 12px 0;
+      font-weight: 400;
+      }
+      h1 {
+      font-size: 28px;
+      }
+      .main-block, .info {
+      display: flex;
+      flex-direction: column;
+      }
+      .main-block {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      min-height: 100%;
+      background: url("/uploads/media/default/0001/01/49bff73f282c2c21f3341f1fe457fe35337b1792.jpeg") no-repeat center;
+      background-size: cover;
+      }
+      form {
+      width: 86%; 
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px; 
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      background: #ebebeb; 
+      }
+      .info-item {
+      width: 100%;
+      }
+      input {
+      width: calc(100% - 57px);
+      height: 36px;
+      padding-left: 10px; 
+      margin: 0 0 12px -5px;
+      border-radius: 0 5px 5px 0;
+      border: solid 1px #cbc9c9;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+      background: #fff; 
+      }
+      .icon {
+      padding: 9px 15px;
+      margin-top: -1px;
+      border-radius: 5px 0 0 5px;
+      border: solid 0px #cbc9c9;
+      background: #666;
+      color: #fff;
+      }
+      input[type=radio] {
+      display: none;
+      }
+      label.radio {
+      position: relative;
+      display: inline-block;
+      text-indent: 32px;
+      cursor: pointer;
+      }
+      label.radio:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      border: 0.5px solid #8ebf42;
+      background: #fff;
+      }
+      label.radio:after {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 4px;
+      top: 5px;
+      left: 4px;
+      border-bottom: 3px solid #8ebf42;
+      border-left: 3px solid #8ebf42;
+      transform: rotate(-45deg);
+      opacity: 0;
+      }
+      input[type=radio]:checked + label:after {
+      opacity: 1;
+      }
+      textarea {
+      width: 99%;
+      margin-bottom: 12px;
+      }
+      button {
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px; 
+      border: none;
+      background: #8ebf42; 
+      font-size: 14px;
+      font-weight: 600;
+      color: #fff;
+      }
+      button:hover {
+      background: #82b534;
+      }
+      .grade-type div {
+      display: flex;
+      margin: 6px 0;
+      }
+      @media (min-width: 568px) {
+      .info {
+      flex-flow: row wrap;
+      justify-content: space-between;
+      }
+      .info-item {
+      width: 48%;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-block">
+      <h1>Vehicle Fitness Test</h1>
+      <form action="/end" method="post">
+        <div class="info">
+          <div class="info-item">
+            <label class="icon" for="certificate no"></label>
+            <input type="text" name="certificate no" id="certificate no" placeholder="certificate no" value="Certificate number:MH00900330000260"required/>
+          </div>
+          
+          
+          
+        </div>
+        <div  class="info-item">
+            <label class="icon" for="validity date"></label>
+            <input type="text" name="validity date" id="validity date" placeholder="validity date" value=" Validity Date: 24/Dec/2019" required/>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="registration no"></label>
+            <input type="text" name="registration no" id="registration no" placeholder="registration no" value="Registration number:MHO9BT7755" required/>
+          </div>
+          
+          <div  class="info-item">
+            <label class="icon" for="manufacture date"></label>
+            <input type="text" name="manufacture date" id="manufacture date" placeholder="manufacture date" value=" Manufacture Date: 25/11/2014" required/>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="age"></label>
+            <input type="text" name="age" id="age" placeholder="age" value=" Vehicle Age: 6" required/>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="age"></label>
+            <input type="text" name="age" id="age" placeholder="age" value=" Fuel used: Petrol" required/>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="engine no"></label>
+            <input type="text" name="engine no" id="engine no" placeholder="engine no" value=" Engine Number: HALGEFAHIA7972" required/>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="test date"></label>
+            <input type="text" name="test date" id="test date" placeholder="test date" value=" Test Date: 1/11/2020" required/>
+          </div>
+          
+        <div class="grade-type">
+          <h3>Mandatory Automated Checks</h3>
+          <h3>Pollution test</h3>
+          <div> 
+            <input type="radio" value="none" id="radioOne" name="grade1" checked/>
+            <label for="radioOne" class="radio">Pass</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radioOne" name="grade1" />
+            <label for="radioOne" class="radio">Fail</label>
+          </div>
+
+          <h3>Headlights present and working</h3>
+          <div> 
+            <input type="radio" value="none" id="radiot" name="grade2" checked/>
+            <label for="radiot" class="radio">yes</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radiot" name="grade2" />
+            <label for="radiot" class="radio">no</label>
+          </div>
+
+          <h3>Indicator present and working</h3>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade3" checked/>
+            <label for="radio2" class="radio">yes</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade3" />
+            <label for="radio2" class="radio">no</label>
+          </div>
+
+          <h3>Horn present and working</h3>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade4" checked/>
+            <label for="radio2" class="radio">yes</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade4" />
+            <label for="radio2" class="radio">no</label>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="manufacture date"></label>
+            <input type="text" name="manufacture date" id="manufacture date" placeholder="manufacture date" value=" Pitch of 2000Hz" required/>
+          </div>
+          <h3>Car Parts detected</h3>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade31" checked/>
+            <label for="radio2" class="radio">Light(Front and Back Light)</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade32" checked />
+            <label for="radio2" class="radio">Glass(Front and Back Glass)</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade33" checked />
+            <label for="radio2" class="radio">SideGlass</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade34" checked />
+            <label for="radio2" class="radio">Door</label>
+          </div>
+          <div> 
+            <input type="radio" value="none" id="radio2" name="grade35" checked />
+            <label for="radio2" class="radio">Wheel</label>
+          </div>
+          <div  class="info-item">
+            <label class="icon" for="manufacture date"></label>
+            <input type="text" name="manufacture date" id="manufacture date" placeholder="manufacture date" value="Tyre condition is worn out" required/>
+          </div>
+          <h3>Mandatory Manual Checks</h3>
+
+          <h3>Brake Test</h3>
+          <div> 
+            <input type="radio" id="radio2"  value="none"  name="x1"  />
+            <label  for="radio2" class="radio">Pass</label>
+          </div>
+          <div> 
+            <input type="radio" id="radio2" value="none"  name="x1" />
+            <label or="radio2"  class="radio">Fail</label>
+          </div>
+
+          <h3>Fare Meter</h3>
+          <div> 
+            <input type="radio" value="none"  name="x"  />
+            <label  class="radio">Working</label>
+          </div>
+          <div> 
+            <input type="radio" value="none"  name="x" />
+            <label  class="radio">Not Working</label>
+          </div>
+
+          <h3>Speedometer</h3>
+          <div> 
+            <input type="radio" value="none"  name="x2"  />
+            <label  class="radio">Working</label>
+          </div>
+          <div> 
+            <input type="radio" value="none"  name="x2" />
+            <label  class="radio">Not Working</label>
+          </div>
+
+          <h3>Spark plug</h3>
+          <div> 
+            <input type="radio" value="none"  name="x3"  />
+            <label  class="radio">Working</label>
+          </div>
+          <div> 
+            <input type="radio" value="none"  name="x3" />
+            <label  class="radio">Not Working</label>
+          </div>
+
+
+
+         
+    
+        <button type="submit" >Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
