@@ -16,5 +16,9 @@ INSTALLATION INSTRUCTIONS:
 TO RUN THE INDICATOR MODEL
 1. Provide path to the video in the variable "file"
 
+2. Run indicator.ipynb in indicator folder
+
 TO RUN THE HORN MODEL
 1. Provide the path to the audio file in the variable "file"
+
+2. Run horn_pitch_detection.ipynb in horn_detect folder
