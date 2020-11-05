@@ -12,4 +12,4 @@ Further the tests which cannot be automated are done by the officer
 The final report generated is reviewed and the time stamp and digital signature of the officer is put.
 
 To run the webpage, run the app.ipynb file in the repo
-Make sure the paths of the required files(images,video,audio,weights) are mentioned correctly.
+Make sure the paths of the required files(images,video,audio,weights) are mentioned correctly in the corresponding source code.
