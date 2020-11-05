@@ -4,6 +4,6 @@ INSTALLATION INSTRUCTIONS:
 
 2. Dowload the weights for the Car Parts Detection model from the drive link : https://drive.google.com/file/d/1ofddTEbR22GWlTDWUERJzjzvoIU9DhrG/view?usp=sharing
 
-3. Install the above dowloaded weights in  CarPartsDetectionChallenge-master\Data\Model_Weights folder.
+3. Install the above dowloaded weights in  Car Parts detection\Data\Model_Weights folder.
 
 4. Run the app.ipynb Jupyter Notebook to start the flask webpage on localhost.
