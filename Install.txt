@@ -16,5 +16,5 @@ INSTALLATION INSTRUCTIONS:
 TO RUN THE INDICATOR MODEL
 1. Provide path to the video in the variable "file"
 
-TO RUN THE HORM MODEL
+TO RUN THE HORN MODEL
 1. Provide the path to the audio file in the variable "file"
