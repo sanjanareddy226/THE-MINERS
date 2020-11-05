@@ -1,0 +1,34 @@
+PUCC UPLOAD-
+Certificate number,registration number,chassis number,engine number,pollution test result and validity date is extracted once the pollution under control certificate is uploaded.
+
+RC UPLOAD-
+The age of the vehicle and date of registration of the vehicle is shown
+
+PERSONAL ID UPLOAD(ADHAAR)-
+The owner name,gender,date of birth and Adhaar uid is shown.
+
+LICENSE PLATE UPLOAD
+The license plate number is extracted and highlighted in the image and also the number is shown in text format.
+
+TYRE CONDITION UPLOAD-
+The condition of the tyre can be normal/exposed/tread wear/bulges/cracked.
+
+HEAD LIGHTS UPLOAD-
+The head lights can be either on or off.
+
+INDICATOR LIGHTS UPLOAD-
+The lights can be blinking or not.
+
+HORN DETECTION UPLOAD-
+The pitch is measured in terms of hertz(Hz, frequency measure).
+
+CAR PARTS DETECTION-
+Parts detected are- Door, Rear View Mirror,Windsheild
+
+GEOLOCATION DETECTION-
+The distance between two places i returned in terms of kilometers(km).
+
+VARIOUS LANGUAGE SUPPORT-
+109 languages are supported, webpage can be viewed with any of these languages.
+
+
