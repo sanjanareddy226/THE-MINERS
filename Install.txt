@@ -6,4 +6,13 @@ INSTALLATION INSTRUCTIONS:
 
 3. Install the above dowloaded weights in  Car Parts detection\Data\Model_Weights folder.
 
+4. Provide the username and api credentials of the IBM cloudant from your IBM cloud account in the username and api field in app.ipynb
+
+5. Create a database named "vehicle" in IBM cloudant.
+
 4. Run the app.ipynb Jupyter Notebook to start the flask webpage on localhost.
+
+
+TO RUN THE INDICATOR MODEL
+1. Provide path to the video in the argument argv
+
